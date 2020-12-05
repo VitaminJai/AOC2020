@@ -6,7 +6,6 @@ def slope(right,down):
     tree = 0
     for line in inputs[::down]:
         n = c % len(line)
-        print(n)
         c +=right
         if line[n] == "#":
             tree += 1

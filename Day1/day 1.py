@@ -1,9 +1,9 @@
 import sys
-ask = sys.stdin.readlines()
+content = sys.stdin.readlines()
 newAsk = []
 multi = 0
 other = []
-for x in ask:
+for x in content:
     new = x.strip("\n")
     newAsk.append(new)
 print(newAsk)

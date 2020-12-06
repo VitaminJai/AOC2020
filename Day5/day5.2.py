@@ -1,7 +1,7 @@
 myFile = open("seats.txt","r")
 content = myFile.read().split("\n")
 idlist = []
-trans = str.maketrans("FBRL", "0110")
+trans = str.maketrans('FBRL', '0110')
 
 for lines in content:
     idlist.append(int(lines.translate(trans), 2))

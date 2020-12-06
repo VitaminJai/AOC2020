@@ -3,7 +3,7 @@ content = myFile.read().split("\n\n")
 result = 0
 
 for x in content:
-    questions = "abcdefghijklmnopqrstuvwxyz"
+    questions = 'abcdefghijklmnopqrstuvwxyz'
     spaces = x.replace("\n", " ")
     splits = spaces.split()
     for x in splits:

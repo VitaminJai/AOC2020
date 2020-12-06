@@ -4,7 +4,7 @@ correct = 0
 
 for i in paslist:
 	count = 0
-	string1 = i.split(" ")
+	string1 = i.split(' ')
 	times = string1[0]
 	min, max = times.split ("-")
 	letter = string1[1].strip(":")

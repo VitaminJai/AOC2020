@@ -1,5 +1,5 @@
 import re
-my_File = open("passports.txt", "r")
+my_File = open("passports.txt", 'r')
 checks = {
 'byr':r'byr:((19[2-9]\d)|(200[0-2]))',
 'iyr':r'iyr:((201\d)|2020)',

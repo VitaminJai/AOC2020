@@ -1,5 +1,5 @@
 my_file = open("passports.txt")
-lines = my_file.read().split("\n\n")
+lines = my_file.read().split('\n\n')
 checks = {'byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid'}
 count = 0
 

@@ -1,4 +1,4 @@
-myFile = open('day7.txt', 'r')
+myFile = open("day7.txt", "r")
 content = myFile.read().split('\n')
 allBags = {}
 
